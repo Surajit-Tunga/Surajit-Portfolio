@@ -51,12 +51,12 @@ export default function Education() {
                     className="bg-gradient-to-br from-gray-900 to-gray-800 p-6 rounded-xl border border-gray-800 hover:border-cyan-500/50 transition-all shadow-xl group"
                   >
                     {/* Icon */}
-                    <div className="inline-flex items-center justify-center w-12 h-12 bg-gradient-to-br from-cyan-500/20 to-purple-500/20 rounded-lg mb-4">
+                    <div className="inline-flex items-center justify-center w-12 h-12 bg-gradient-to-br from-cyan-500/20 to-purple-500/20 rounded-lg mb-4 mx-2">
                       <GraduationCap className="text-cyan-400" size={24} />
                     </div>
 
                     {/* Duration */}
-                    <span className="inline-block px-3 py-1 bg-cyan-500/10 text-cyan-400 rounded-full mb-3">
+                    <span className="inline-block px-3 py-1 bg-cyan-500/10 text-cyan-400 rounded-full ml-2 mb-3">
                       {edu.duration}
                     </span>
 
@@ -70,22 +70,6 @@ export default function Education() {
                       {edu.institution}
                     </p>
 
-                    {/* Description */}
-                    <p className="text-gray-400 mb-4">
-                      {edu.description}
-                    </p>
-
-                    {/* Achievements */}
-                    {edu.achievements && edu.achievements.length > 0 && (
-                      <div className="space-y-2">
-                        {edu.achievements.map((achievement, i) => (
-                          <div key={i} className="flex items-center gap-2 text-gray-300">
-                            <Award size={16} className="text-cyan-400 flex-shrink-0" />
-                            <span>{achievement}</span>
-                          </div>
-                        ))}
-                      </div>
-                    )}
 
                     {/* Hover Glow Effect */}
                     <div className="absolute inset-0 bg-gradient-to-r from-cyan-500/0 via-cyan-500/5 to-purple-500/0 opacity-0 group-hover:opacity-100 rounded-xl transition-opacity duration-500 pointer-events-none"></div>

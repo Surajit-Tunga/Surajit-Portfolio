@@ -19,10 +19,10 @@ export default function Certificates() {
           className="text-center mb-16"
         >
           <h2 className="mb-4 bg-gradient-to-r from-cyan-400 to-purple-500 bg-clip-text text-transparent">
-            Certificates & Achievements
+            Certificates
           </h2>
           <p className="text-gray-400 max-w-2xl mx-auto">
-            Professional certifications and recognitions
+            Certifications and courses I've completed to enhance my skills and knowledge.
           </p>
         </motion.div>
 
@@ -79,13 +79,6 @@ export default function Certificates() {
                     </motion.div>
                   </div>
 
-                  {cert.credentialId && (
-                    <div className="mt-3 pt-3 border-t border-gray-700">
-                      <p className="text-gray-500">
-                        ID: {cert.credentialId}
-                      </p>
-                    </div>
-                  )}
                 </div>
 
                 {/* Hover Glow Effect */}

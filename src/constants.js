@@ -1,11 +1,20 @@
-// Portfolio Data - All information is stored here
+import profile from './img/profile.jpeg'; 
+import ociai from './img/ociai.jpeg';
+import dbms from './img/dbms.jpeg'; 
+import django from './img/django.jpeg'; 
+import sbh from './img/sbh.jpeg';
+import foset from './img/foset.jpeg'; 
+import ihmmc from './img/ihmmc.jpeg';
+
+
+
 
 export const personalInfo = {
   name: "Surajit Tunga",
   role: "Full Stack Developer || Exploring AI/ML",
   tagline: "Building innovative solutions with modern technologies",
-  about: "Passionate developer with expertise in building scalable web applications, AI-powered solutions, and machine learning models. I love turning complex problems into simple, beautiful, and intuitive solutions.",
-  photo: "https://images.unsplash.com/photo-1737575655055-e3967cbefd03?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxkZXZlbG9wZXIlMjBwb3J0cmFpdCUyMHByb2Zlc3Npb25hbHxlbnwxfHx8fDE3NjEwMjI0NTR8MA&ixlib=rb-4.1.0&q=80&w=1080",
+  about: "Passionate developer with expertise in building scalable web applications and AI-powered solution. I love turning complex problems into simple, beautiful, and intuitive solutions.",
+  photo: profile,
   resumeUrl: "#",
   email: "surajittunga2005@gmail.com",
   location: "Kolkata, India"
@@ -15,25 +24,19 @@ export const socialLinks = [
   {
     name: "GitHub",
     icon: "Github",
-    url: "https://github.com/yourusername",
+    url: "https://github.com/surajit-tunga",
     color: "#333"
   },
   {
     name: "LinkedIn",
     icon: "Linkedin",
-    url: "https://linkedin.com/in/yourusername",
+    url: "https://www.linkedin.com/in/surajittunga",
     color: "#0077b5"
-  },
-  {
-    name: "Twitter",
-    icon: "Twitter",
-    url: "https://twitter.com/yourusername",
-    color: "#1da1f2"
   },
   {
     name: "Email",
     icon: "Mail",
-    url: "mailto:alex.johnson@example.com",
+    url: "mailto:surajittunga2005@gmail.com",
     color: "#ea4335"
   }
 ];
@@ -41,27 +44,21 @@ export const socialLinks = [
 export const education = [
   {
     id: 1,
-    degree: "Master of Science in Computer Science",
-    institution: "Stanford University",
-    duration: "2020 - 2022",
-    description: "Specialized in Machine Learning and Distributed Systems. GPA: 3.9/4.0",
-    achievements: ["Dean's List", "Research Assistant", "Published 2 papers"]
+    degree: "B. Tech in Electronics and Communication Engineering",
+    institution: "Guru Nanak Institute of Technology",
+    duration: "2023 - 2027"
   },
   {
     id: 2,
-    degree: "Bachelor of Technology in Computer Engineering",
-    institution: "MIT",
-    duration: "2016 - 2020",
-    description: "Graduated with Honors. Focus on Software Engineering and AI.",
-    achievements: ["Valedictorian", "Hackathon Winner", "Teaching Assistant"]
+    degree: "Higher Secondary Education",
+    institution: "Balichak B.H Institution",
+    duration: "2021 - 2023"
   },
   {
     id: 3,
-    degree: "High School Diploma",
-    institution: "Tech High School",
-    duration: "2012 - 2016",
-    description: "Advanced placement in Mathematics and Computer Science.",
-    achievements: ["Honor Roll", "Coding Club President", "Math Olympiad"]
+    degree: "Secondary Education",
+    institution: "Jamna Ramakrishna Vivekananda Pathmandir",
+    duration: "2015 - 2021"
   }
 ];
 
@@ -91,35 +88,24 @@ export const skillCategories = [
 export const certificates = [
   {
     id: 1,
-    title: "AWS Certified Solutions Architect",
-    issuer: "Amazon Web Services",
-    date: "2023",
-    credentialId: "AWS-SA-2023-1234",
-    image: "https://images.unsplash.com/photo-1665470909939-959569b20021?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=400"
+    title: "Certified Foundations Associate",
+    issuer: "Oracle",
+    date: "August 2025",
+    image: ociai
   },
   {
     id: 2,
-    title: "Google Cloud Professional Developer",
-    issuer: "Google Cloud",
-    date: "2023",
-    credentialId: "GCP-PD-2023-5678",
-    image: "https://images.unsplash.com/photo-1618761714954-0b8cd0026356?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=400"
+    title: "Introduction to Database Systems",
+    issuer: "IIT Madras - NPTEL",
+    date: "April 2025",
+    image: dbms
   },
   {
     id: 3,
-    title: "Machine Learning Specialization",
-    issuer: "Coursera - Stanford",
-    date: "2022",
-    credentialId: "ML-SPEC-2022-9012",
-    image: "https://images.unsplash.com/photo-1529078155058-5d716f45d604?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=400"
-  },
-  {
-    id: 4,
-    title: "Meta React Developer Certificate",
-    issuer: "Meta",
-    date: "2022",
-    credentialId: "META-REACT-2022-3456",
-    image: "https://images.unsplash.com/photo-1665470909939-959569b20021?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=400"
+    title: "Python with Django",
+    issuer: "Ardent Computech Pvt Ltd",
+    date: "March 2025",
+    image: django
   }
 ];
 
@@ -204,7 +190,7 @@ export const journey = [
     name: "Smart Bengal Hackathon 2025",
     position: "Finalist",
     description: "Led the team as Full Stack Developer at Smart Bengal Hackathon 2025 organized by RCC Institute of Information Technology. We built an AI-powered image processing system to detect mobile phone usage in restricted areas, showcasing innovation and teamwork.",
-    image: "https://images.unsplash.com/photo-1540575467063-178a50c2df87?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=600",
+    image: sbh,
     type: "milestone"
   },
   {
@@ -213,7 +199,7 @@ export const journey = [
     name: "Technical Paper Presentation",
     position: "Paper Presenter",
     description: "Presented a research paper titled '5G-Enabled IoT' at the Technical Paper Presentation organized by FOSET. Discussed advancements in IoT communication systems leveraging 5G networks and their real-world implications.",
-    image: "https://images.unsplash.com/photo-1551836022-d5d88e9218df?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=600",
+    image: foset,
     type: "milestone"
   },
   {
@@ -222,7 +208,7 @@ export const journey = [
     name: "IHMMC 2025",
     position: "Winner (10th Place)",
     description: "Led the team to develop an innovative assistive technology — a speaking system for mute individuals using hand gesture recognition. The project secured 10th position at IHMMC 2025 hosted by Asansol Engineering College.",
-    image: "https://images.unsplash.com/photo-1581091012184-5c1cc8e0b4d3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=600",
+    image: ihmmc,
     type: "milestone"
   },
 ];

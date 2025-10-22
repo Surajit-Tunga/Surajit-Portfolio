@@ -33,7 +33,7 @@ export default function Journey() {
         >
           <div className="inline-flex items-center gap-2 px-4 py-2 bg-gradient-to-r from-cyan-500/10 to-purple-500/10 border border-cyan-500/20 rounded-full mb-4">
             <Trophy className="text-cyan-400" size={20} />
-            <span className="text-cyan-400">Hackathons & Achievements</span>
+            <span className="text-cyan-400">Achievements</span>
           </div>
           <h2 className="mb-4 bg-gradient-to-r from-cyan-400 to-purple-500 bg-clip-text text-transparent">
             My Journey as a Student
@@ -109,7 +109,7 @@ export default function Journey() {
                         </h3>
 
                         {/* Description */}
-                        <p className="text-gray-400 break-words text-sm sm:text-base leading-relaxed">
+                        <p className="text-gray-400 break-words text-sm sm:text-base leading-relaxed text-left">
                           {item.description}
                         </p>
                       </div>
