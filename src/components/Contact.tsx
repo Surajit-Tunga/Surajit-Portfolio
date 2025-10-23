@@ -6,6 +6,7 @@ import { Input } from './ui/input';
 import { Textarea } from './ui/textarea';
 import { toast } from 'sonner@2.0.3';
 
+
 const iconMap: { [key: string]: any } = {
   Github,
   Linkedin,
@@ -21,6 +22,8 @@ export default function Contact() {
   });
   const [isSubmitting, setIsSubmitting] = useState(false);
 
+
+
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
     setIsSubmitting(true);
@@ -32,6 +35,8 @@ export default function Contact() {
       setIsSubmitting(false);
     }, 1500);
   };
+
+  
 
   const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
     setFormData({

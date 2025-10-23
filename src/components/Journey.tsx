@@ -120,15 +120,15 @@ export default function Journey() {
                   </div>
 
                   {/* Timeline Node */}
-                  <div className="absolute left-6 sm:left-8 lg:left-1/2 transform lg:-translate-x-1/2 flex items-center justify-center">
+                  <div className="absolute left-2 sm:left-8 lg:left-1/2 transform lg:-translate-x-1/2 flex items-center justify-center">
                     <motion.div
                       whileHover={{ scale: 1.3, rotate: 360 }}
                       transition={{ duration: 0.6 }}
                       className="relative"
                     >
                       {/* Icon Container */}
-                      <div className={`w-12 h-12 sm:w-16 sm:h-16 bg-gradient-to-br ${typeColors[item.type as keyof typeof typeColors]} rounded-full flex items-center justify-center border-4 border-gray-950 z-10 relative shadow-lg`}>
-                        <Icon className="text-white" size={20} />
+                      <div className={`w-12 h-12 sm:w-16 sm:h-16 bg-gradient-to-br ${typeColors[item.type as keyof typeof typeColors]} rounded-full flex items-center justify-center border-4 border-gray-950 z-10 relative  shadow-lg`}>
+                        <Icon className="text-white " size={20} />
                       </div>
                       
                       {/* Pulse Animation */}

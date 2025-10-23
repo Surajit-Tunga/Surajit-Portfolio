@@ -5,6 +5,14 @@ import django from './img/django.jpeg';
 import sbh from './img/sbh.jpeg';
 import foset from './img/foset.jpeg'; 
 import ihmmc from './img/ihmmc.jpeg';
+import lulc from './img/LULC.png';
+import forest from './img/forest.png';
+import fest from './img/fest.png';
+import code from './img/code.png';
+import resume from './img/resume.png';
+import metagame from './img/metagame.png';
+import underdev from './img/underdev.jpg';
+
 
 
 
@@ -118,7 +126,7 @@ export const projects = [
     technologies: ["Python", "Leaflet.js", "Random Forest", "React", "Nodejs", "Express js", "postgreSQL", "Sentinel-2"],
     link: "https://github.com/Surajit-Tunga/Urban-Expansion-and-Land-Use-Analysis-",
     liveUrl: "https://github.com/Surajit-Tunga/Urban-Expansion-and-Land-Use-Analysis-",
-    image: "https://images.unsplash.com/photo-1581090700227-1e37b190418e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=600"
+    image: lulc
   },
   {
     id: 2,
@@ -128,7 +136,7 @@ export const projects = [
     technologies: ["Python", "Scikit-learn", "Pandas", "NumPy"],
     link: "https://github.com/Surajit-Tunga/Forest-Cover-Type-Detection-ML1",
     liveUrl: "https://github.com/Surajit-Tunga/Forest-Cover-Type-Detection-ML1",
-    image: "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=600"
+    image: forest
   },
   {
     id: 3,
@@ -138,7 +146,7 @@ export const projects = [
     technologies: ["MongoDB", "Express", "React", "Node.js"],
     link: "https://github.com/Surajit-Tunga/HackMate",
     liveUrl: "https://github.com/Surajit-Tunga/HackMate",
-    image: "https://images.unsplash.com/photo-1551434678-e076c223a692?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=600"
+    image: underdev
   },
   {
     id: 4,
@@ -148,7 +156,7 @@ export const projects = [
     technologies: ["MongoDB", "Express", "React", "Node.js"],
     link: "https://github.com/Surajit-Tunga/Resume-Builder-MERN",
     liveUrl: "https://github.com/Surajit-Tunga/Resume-Builder-MERN",
-    image: "https://images.unsplash.com/photo-1587613995604-53e43a03d51f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=600"
+    image: resume
   },
   {
     id: 5,
@@ -158,7 +166,7 @@ export const projects = [
     technologies: ["MongoDB", "Express", "React", "Node.js", "Gemini API"],
     link: "https://github.com/Surajit-Tunga/Code-Reviewer-MERN-AI",
     liveUrl: "https://github.com/Surajit-Tunga/Code-Reviewer-MERN-AI",
-    image: "https://images.unsplash.com/photo-1581090700227-1e37b190418e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=600"
+    image: code
   },
   {
     id: 6,
@@ -168,7 +176,7 @@ export const projects = [
     technologies: ["React", "TailwindCSS"],
     link: "https://github.com/Surajit-Tunga/Fest.io",
     liveUrl: "https://fest-io.vercel.app/",
-    image: "https://images.unsplash.com/photo-1503428593586-e225b39bddfe?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=600"
+    image: fest
   },
   {
     id: 7,
@@ -178,7 +186,7 @@ export const projects = [
     technologies: ["React", "GSAP", "TailwindCSS"],
     link: "https://github.com/Surajit-Tunga/Metagame",
     liveUrl: "https://gsap-page-umber.vercel.app/",
-    image: "https://images.unsplash.com/photo-1511512578047-dfb367046420?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=600"
+    image: metagame
   }
 ];
 
@@ -200,13 +208,13 @@ export const journey = [
     position: "Paper Presenter",
     description: "Presented a research paper titled '5G-Enabled IoT' at the Technical Paper Presentation organized by FOSET. Discussed advancements in IoT communication systems leveraging 5G networks and their real-world implications.",
     image: foset,
-    type: "milestone"
+    type: "achievement"
   },
   {
     id: 3,
     date: "March 2025",
     name: "IHMMC 2025",
-    position: "Winner (10th Place)",
+    position: "Winner",
     description: "Led the team to develop an innovative assistive technology — a speaking system for mute individuals using hand gesture recognition. The project secured 10th position at IHMMC 2025 hosted by Asansol Engineering College.",
     image: ihmmc,
     type: "milestone"
