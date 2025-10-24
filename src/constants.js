@@ -12,9 +12,7 @@ import code from './img/code.png';
 import resume from './img/resume.png';
 import metagame from './img/metagame.png';
 import underdev from './img/underdev.jpg';
-
-
-
+import myresume from './Files/Surajit_Resume.pdf';
 
 
 export const personalInfo = {
@@ -23,7 +21,7 @@ export const personalInfo = {
   tagline: "Building innovative solutions with modern technologies",
   about: "Passionate developer with expertise in building scalable web applications and AI-powered solution. I love turning complex problems into simple, beautiful, and intuitive solutions.",
   photo: profile,
-  resumeUrl: "#",
+  resumeUrl: myresume,
   email: "surajittunga2005@gmail.com",
   location: "Kolkata, India"
 };
@@ -46,7 +44,14 @@ export const socialLinks = [
     icon: "Mail",
     url: "mailto:surajittunga2005@gmail.com",
     color: "#ea4335"
-  }
+  },
+  {
+  name: "WhatsApp",
+  icon: "MessageCircle", 
+  url: "https://wa.me/8972195682", 
+  color: "#25D366" 
+}
+
 ];
 
 export const education = [
@@ -73,11 +78,11 @@ export const education = [
 export const skillCategories = [
   {
     category: "Programming Languages",
-    skills: ["JavaScript", "Python", "Java", "C", "SQL"]
+    skills: ["JavaScript", "Python", "Java", "C"]
   },
   {
     category: "Web Technologies",
-    skills: ["React", "Node.js", "Express", "Django", "HTML/CSS", "Tailwind CSS", "GSAP", "EJS", "Vite"]
+    skills: ["HTML", "CSS", "React", "Node.js", "Express", "Django", "Tailwind CSS", "GSAP", "EJS", "Vite"]
   },
   {
     category: "AI/ML",
@@ -85,11 +90,11 @@ export const skillCategories = [
   },
   {
     category: "Databases",
-    skills: ["MongoDB", "MySQL"]
+    skills: ["MongoDB", "MySQL", "SQL"]
   },
   {
     category: "Tools",
-    skills: ["Git", "Github"]
+    skills: ["Git", "Github", "Vercel", "Google Colab"]
   }
 ];
 
@@ -121,7 +126,7 @@ export const projects = [
   {
     id: 1,
     title: "Urban Expansion and Land Use Analysis",
-    category: "ML",
+    category: "Remote Sensing",
     description: "Automated system for urban growth detection using Sentinel-2 imagery with NDVI, NDBI, and NDWI indices integrated into a Web-GIS dashboard.",
     technologies: ["Python", "Leaflet.js", "Random Forest", "React", "Nodejs", "Express js", "postgreSQL", "Sentinel-2"],
     link: "https://github.com/Surajit-Tunga/Urban-Expansion-and-Land-Use-Analysis-",

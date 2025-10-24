@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import { motion } from 'motion/react';
-import { Mail, MapPin, Send, Github, Linkedin, Twitter } from 'lucide-react';
+import { Mail, MapPin, Send, Github, Linkedin, Twitter,MessageCircle } from 'lucide-react';
 import { personalInfo, socialLinks } from '../constants';
 import { Input } from './ui/input';
 import { Textarea } from './ui/textarea';
@@ -11,7 +11,8 @@ const iconMap: { [key: string]: any } = {
   Github,
   Linkedin,
   Twitter,
-  Mail
+  Mail,
+  MessageCircle
 };
 
 export default function Contact() {

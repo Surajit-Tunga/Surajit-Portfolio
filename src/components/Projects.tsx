@@ -4,14 +4,15 @@ import { ExternalLink, Github, Filter } from 'lucide-react';
 import { projects } from '../constants';
 import { Badge } from './ui/badge';
 
-const categories = ['All', 'Frontend', 'MERN', 'AI', 'ML'];
+const categories = ['All', 'Frontend', 'MERN', 'AI', 'ML', 'Remote Sensing'];
 
 const categoryColors: { [key: string]: string } = {
   'Frontend': 'from-blue-500 to-cyan-500',
   'MERN': 'from-green-500 to-emerald-500',
   'AI': 'from-purple-500 to-pink-500',
-  'ML': 'from-orange-500 to-red-500'
-};
+  'ML': 'from-orange-500 to-red-500',
+  'Remote Sensing': 'from-purple-500 to-pink-500',
+  };
 
 export default function Projects() {
   const [activeCategory, setActiveCategory] = useState('All');

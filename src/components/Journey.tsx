@@ -1,12 +1,12 @@
 import { motion } from 'motion/react';
-import { Trophy, Award, Star, Calendar, Medal } from 'lucide-react';
+import { Trophy, Award,  Calendar, Medal } from 'lucide-react';
 import { journey } from '../constants';
 import { ImageWithFallback } from './figma/ImageWithFallback';
 
 const typeIcons = {
   milestone: Trophy,
-  education: Award,
-  achievement: Medal
+  achievement: Medal,
+  award: Award,
 };
 
 const typeColors = {
@@ -92,7 +92,12 @@ export default function Journey() {
                         <div className="absolute top-4 right-4">
                           <div className="px-3 py-1.5 sm:px-4 sm:py-2 bg-black/60 backdrop-blur-md text-yellow-400 rounded-full text-sm sm:text-base shadow-lg border border-yellow-400/30">
                             <span className="flex items-center gap-1.5">
-                              <Trophy size={14} className="sm:w-4 sm:h-4" />
+                              {/* <Trophy size={14} className="sm:w-4 sm:h-4" /> */}
+                              {(() => {
+                                  const Icon = typeIcons[item.type as keyof typeof typeIcons];
+                                  return Icon ? <Icon size={14} className="sm:w-4 sm:h-4" /> : null;
+                                  })()}
+
                               {item.position}
                             </span>
                           </div>

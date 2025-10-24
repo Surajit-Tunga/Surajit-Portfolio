@@ -1,5 +1,5 @@
 import { motion } from 'motion/react';
-import { Download, ArrowRight } from 'lucide-react';
+import { FileText, ArrowRight } from 'lucide-react';
 import { personalInfo } from '../constants';
 
 export default function Hero() {
@@ -79,15 +79,16 @@ export default function Hero() {
               transition={{ delay: 0.6 }}
               className="flex flex-col sm:flex-row gap-4 justify-center md:justify-start"
             >
-              <motion.a
-                href={personalInfo.resumeUrl}
-                whileHover={{ scale: 1.05 }}
-                whileTap={{ scale: 0.95 }}
-                className="inline-flex items-center justify-center gap-2 px-8 py-4 bg-gradient-to-r from-cyan-500 to-purple-600 text-white rounded-lg shadow-lg shadow-cyan-500/50 hover:shadow-cyan-500/70 transition-all"
-              >
-                <Download size={20} />
-                Download Resume
-              </motion.a>
+            <motion.a
+              href={personalInfo.resumeUrl}
+              rel="noopener noreferrer"
+                    whileHover={{ scale: 1.05 }}
+              whileTap={{ scale: 0.95 }}
+              className="inline-flex items-center justify-center gap-2 px-8 py-4 bg-gradient-to-r from-cyan-500 to-purple-600 text-white rounded-lg shadow-lg shadow-cyan-500/50 hover:shadow-cyan-500/70 transition-all"
+            >
+              <FileText size={20} />
+              View Resume
+            </motion.a>
 
               <motion.button
                 onClick={scrollToProjects}

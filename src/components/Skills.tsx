@@ -75,10 +75,10 @@ export default function Skills() {
 
 function getCategoryIcon(category: string) {
   const icons: { [key: string]: string } = {
-    'Frontend': '⚛️',
-    'Backend': '⚙️',
+    'Web Technologies': '⚛️',
+    'Databases': '⚙️',
     'AI/ML': '🤖',
-    'Tools & DevOps': '🛠️'
+    'Tools': '🛠️'
   };
   return icons[category] || '💻';
 }

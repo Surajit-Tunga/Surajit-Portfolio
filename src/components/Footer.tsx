@@ -15,7 +15,7 @@ export default function Footer() {
             className="text-gray-400 flex items-center gap-2"
           >
             © {new Date().getFullYear()} {personalInfo.name}. Made with{' '}
-            <Heart className="text-red-500 fill-red-500" size={16} /> and React
+            <Heart className="text-red-500 fill-red-500" size={16} /> and Figma Make
           </motion.p>
 
           {/* Logo */}
