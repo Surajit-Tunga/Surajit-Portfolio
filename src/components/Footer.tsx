@@ -14,8 +14,7 @@ export default function Footer() {
             viewport={{ once: true }}
             className="text-gray-400 flex items-center gap-2"
           >
-            © {new Date().getFullYear()} {personalInfo.name}. Made with{' '}
-            <Heart className="text-red-500 fill-red-500" size={16} /> and Figma Make
+            © {new Date().getFullYear()} {personalInfo.name}.
           </motion.p>
 
           {/* Logo */}
@@ -36,7 +35,7 @@ export default function Footer() {
             viewport={{ once: true }}
             className="text-gray-400"
           >
-            Built with React, TailwindCSS & Motion
+            Built with Figma Make AI.
           </motion.p>
         </div>
       </div>

@@ -1,5 +1,7 @@
 import { motion } from 'motion/react';
 import { skillCategories } from '../constants';
+import { Sparkles } from 'lucide-react';
+
 
 export default function Skills() {
   return (
@@ -17,9 +19,11 @@ export default function Skills() {
           transition={{ duration: 0.6 }}
           className="text-center mb-16"
         >
-          <h2 className="mb-4 bg-gradient-to-r from-cyan-400 to-purple-500 bg-clip-text text-transparent">
-            Skills & Expertise
-          </h2>
+          <div className="inline-flex items-center gap-2 px-4 py-2 bg-gradient-to-r from-cyan-500/10 to-purple-500/10 border border-cyan-500/20 rounded-full mb-4">
+            <Sparkles className="text-cyan-400" size={20} />
+            <span className="text-cyan-400">Skills & Expertise</span>
+          </div>
+          
           <p className="text-gray-400 max-w-2xl mx-auto">
             Technologies and tools I work with
           </p>

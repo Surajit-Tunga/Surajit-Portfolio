@@ -1,5 +1,5 @@
 import { motion } from 'motion/react';
-import { Award, ExternalLink } from 'lucide-react';
+import { Award, ExternalLink, Scroll } from 'lucide-react';
 import { certificates } from '../constants';
 
 export default function Certificates() {
@@ -18,9 +18,11 @@ export default function Certificates() {
           transition={{ duration: 0.6 }}
           className="text-center mb-16"
         >
-          <h2 className="mb-4 bg-gradient-to-r from-cyan-400 to-purple-500 bg-clip-text text-transparent">
-            Certificates
-          </h2>
+          
+          <div className="inline-flex items-center gap-2 px-4 py-2 bg-gradient-to-r from-cyan-500/10 to-purple-500/10 border border-cyan-500/20 rounded-full mb-4">
+            <Scroll className="text-cyan-400" size={20} />
+            <span className="text-cyan-400">Certificates</span>
+          </div>
           <p className="text-gray-400 max-w-2xl mx-auto">
             Certifications and courses I've completed to enhance my skills and knowledge.
           </p>

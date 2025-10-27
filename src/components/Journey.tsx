@@ -1,18 +1,18 @@
 import { motion } from 'motion/react';
-import { Trophy, Award,  Calendar, Medal } from 'lucide-react';
+import { Trophy, Award,  Calendar, FileText } from 'lucide-react';
 import { journey } from '../constants';
 import { ImageWithFallback } from './figma/ImageWithFallback';
 
 const typeIcons = {
   milestone: Trophy,
-  achievement: Medal,
+  publication: FileText,
   award: Award,
 };
 
 const typeColors = {
   milestone: 'from-orange-500 to-yellow-500',
-  education: 'from-purple-500 to-pink-500',
-  achievement: 'from-cyan-500 to-blue-500'
+  publication: 'from-purple-500 to-pink-500',
+  award: 'from-cyan-500 to-blue-500'
 };
 
 export default function Journey() {
@@ -35,9 +35,7 @@ export default function Journey() {
             <Trophy className="text-cyan-400" size={20} />
             <span className="text-cyan-400">Achievements</span>
           </div>
-          <h2 className="mb-4 bg-gradient-to-r from-cyan-400 to-purple-500 bg-clip-text text-transparent">
-            My Journey as a Student
-          </h2>
+          
           <p className="text-gray-400 max-w-2xl mx-auto">
             Hackathons, competitions, and achievements that shaped my developer journey
           </p>

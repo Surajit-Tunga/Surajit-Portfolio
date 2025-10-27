@@ -23,6 +23,7 @@ export const personalInfo = {
   photo: profile,
   resumeUrl: myresume,
   email: "surajittunga2005@gmail.com",
+  whatsapp: "+918972195682",
   location: "Kolkata, India"
 };
 
@@ -50,6 +51,12 @@ export const socialLinks = [
   icon: "MessageCircle", 
   url: "https://wa.me/+918972195682", 
   color: "#25D366" 
+},
+{
+  name: "Google Scholar",
+  icon: "BookOpen",
+  url: "https://scholar.google.com/citations?user=bzXPQOcAAAAJ&hl=en",
+  color: "#4285F4"
 }
 
 ];
@@ -126,7 +133,7 @@ export const projects = [
   {
     id: 1,
     title: "Urban Expansion and Land Use Analysis",
-    category: "Remote Sensing",
+    category: "GIS",
     description: "Automated system for urban growth detection using Sentinel-2 imagery with NDVI, NDBI, and NDWI indices integrated into a Web-GIS dashboard.",
     technologies: ["Python", "Leaflet.js", "Random Forest", "React", "Nodejs", "Express js", "postgreSQL", "Sentinel-2"],
     link: "https://github.com/Surajit-Tunga/Urban-Expansion-and-Land-Use-Analysis-",
@@ -213,7 +220,7 @@ export const journey = [
     position: "Paper Presenter",
     description: "Presented a research paper titled '5G-Enabled IoT' at the Technical Paper Presentation organized by FOSET. Discussed advancements in IoT communication systems leveraging 5G networks and their real-world implications.",
     image: foset,
-    type: "achievement"
+    type: "publication"
   },
   {
     id: 3,
@@ -234,6 +241,6 @@ export const navLinks = [
   { name: "Skills", href: "#skills" },
   { name: "Certificates", href: "#certificates" },
   { name: "Projects", href: "#projects" },
-  { name: "Journey", href: "#journey" },
+  { name: "Achievements", href: "#journey" },
   { name: "Contact", href: "#contact" }
 ];

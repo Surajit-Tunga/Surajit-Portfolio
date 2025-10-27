@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import { motion } from 'motion/react';
-import { Mail, MapPin, Send, Github, Linkedin, Twitter,MessageCircle } from 'lucide-react';
+import { Mail, MapPin, Send, Github, Linkedin, Twitter,MessageCircle,BookOpen } from 'lucide-react';
 import { personalInfo, socialLinks } from '../constants';
 import { Input } from './ui/input';
 import { Textarea } from './ui/textarea';
@@ -12,7 +12,8 @@ const iconMap: { [key: string]: any } = {
   Linkedin,
   Twitter,
   Mail,
-  MessageCircle
+  MessageCircle,
+  BookOpen
 };
 
 export default function Contact() {
@@ -136,6 +137,21 @@ export default function Contact() {
                 <div>
                   <p className="text-gray-400">Location</p>
                   <p className="text-white">{personalInfo.location}</p>
+                </div>
+              </motion.div>
+
+              <motion.div
+                whileHover={{ x: 10 }}
+                className="flex items-center gap-4 p-4 bg-gray-800/50 rounded-xl border border-gray-800 hover:border-cyan-500/50 transition-all group"
+              >
+                <div className="w-12 h-12 bg-gradient-to-br from-cyan-500/20 to-purple-500/20 rounded-lg flex items-center justify-center group-hover:scale-110 transition-transform">
+                  <MessageCircle className="text-cyan-400" size={20} />
+                </div>
+                <div>
+                  <p className="text-gray-400">WhatsApp</p>
+                  <a href={`https://wa.me/${personalInfo.whatsapp}`} className="text-white hover:text-cyan-400 transition-colors">
+                    {personalInfo.whatsapp}
+                  </a>
                 </div>
               </motion.div>
             </div>

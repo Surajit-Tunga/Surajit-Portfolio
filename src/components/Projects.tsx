@@ -1,17 +1,17 @@
 import { useState } from 'react';
 import { motion, AnimatePresence } from 'motion/react';
-import { ExternalLink, Github, Filter } from 'lucide-react';
+import { ExternalLink, Github, Filter, Rocket } from 'lucide-react';
 import { projects } from '../constants';
 import { Badge } from './ui/badge';
 
-const categories = ['All', 'Frontend', 'MERN', 'AI', 'ML', 'Remote Sensing'];
+const categories = ['All', 'Frontend', 'MERN', 'AI', 'ML', 'GIS'];
 
 const categoryColors: { [key: string]: string } = {
   'Frontend': 'from-blue-500 to-cyan-500',
   'MERN': 'from-green-500 to-emerald-500',
   'AI': 'from-purple-500 to-pink-500',
   'ML': 'from-orange-500 to-red-500',
-  'Remote Sensing': 'from-purple-500 to-pink-500',
+  'GIS': 'from-purple-500 to-pink-500',
   };
 
 export default function Projects() {
@@ -36,9 +36,11 @@ export default function Projects() {
           transition={{ duration: 0.6 }}
           className="text-center mb-12"
         >
-          <h2 className="mb-4 bg-gradient-to-r from-cyan-400 to-purple-500 bg-clip-text text-transparent">
-            Featured Projects
-          </h2>
+          <div className="inline-flex items-center gap-2 px-4 py-2 bg-gradient-to-r from-cyan-500/10 to-purple-500/10 border border-cyan-500/20 rounded-full mb-4">
+            <Rocket className="text-cyan-400" size={20} />
+            <span className="text-cyan-400">Featured Projects</span>
+          </div>
+          
           <p className="text-gray-400 max-w-2xl mx-auto">
             A showcase of my best work across different technologies
           </p>
