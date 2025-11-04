@@ -91,10 +91,10 @@ export const skillCategories = [
     category: "Web Technologies",
     skills: ["HTML", "CSS", "React", "Node.js", "Express", "Django", "Tailwind CSS", "GSAP", "EJS", "Vite"]
   },
-  {
-    category: "AI/ML",
-    skills: ["Pandas", "NumPy", "Scikit-learn", "Flask", "XGBoost"]
-  },
+  // {
+  //   category: "AI/ML",
+  //   skills: ["Pandas", "NumPy", "Scikit-learn", "Flask", "XGBoost"]
+  // },
   {
     category: "Databases",
     skills: ["MongoDB", "MySQL", "SQL"]
@@ -150,16 +150,16 @@ export const projects = [
     liveUrl: "https://github.com/Surajit-Tunga/Forest-Cover-Type-Detection-ML1",
     image: forest
   },
-  {
-    id: 3,
-    title: "HackMate",
-    category: "MERN",
-    description: "Hackathon management platform for organizers and participants, featuring registration, event tracking, and result management.",
-    technologies: ["MongoDB", "Express", "React", "Node.js"],
-    link: "https://github.com/Surajit-Tunga/HackMate",
-    liveUrl: "https://github.com/Surajit-Tunga/HackMate",
-    image: underdev
-  },
+  // {
+  //   id: 3,
+  //   title: "HackMate",
+  //   category: "MERN",
+  //   description: "Hackathon management platform for organizers and participants, featuring registration, event tracking, and result management.",
+  //   technologies: ["MongoDB", "Express", "React", "Node.js"],
+  //   link: "https://github.com/Surajit-Tunga/HackMate",
+  //   liveUrl: "https://github.com/Surajit-Tunga/HackMate",
+  //   image: underdev
+  // },
   {
     id: 4,
     title: "ResumeXpert",

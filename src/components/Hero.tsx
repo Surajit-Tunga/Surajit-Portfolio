@@ -80,7 +80,7 @@ export default function Hero() {
               className="flex flex-col sm:flex-row gap-4 justify-center md:justify-start"
             >
             <motion.a
-              href={personalInfo.resumeUrl}
+              href="#"
               rel="noopener noreferrer"
                     whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}
