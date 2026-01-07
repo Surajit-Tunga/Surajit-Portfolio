@@ -13,7 +13,8 @@ import resume from './img/resume.png';
 import metagame from './img/metagame.png';
 import underdev from './img/underdev.jpg';
 import myresume from './Files/Surajit_Resume.pdf';
-
+import java from './img/java.png';
+import innovation from './img/innovation.png';
 
 export const personalInfo = {
   name: "Surajit Tunga",
@@ -91,11 +92,7 @@ export const skillCategories = [
     category: "Web Technologies",
     skills: ["HTML", "CSS", "React", "Node.js", "Express", "Django", "Tailwind CSS", "GSAP", "EJS", "Vite"]
   },
-  // {
-  //   category: "AI/ML",
-  //   skills: ["Pandas", "NumPy", "Scikit-learn", "Flask", "XGBoost"]
-  // },
-  {
+   {
     category: "Databases",
     skills: ["MongoDB", "MySQL", "SQL"]
   },
@@ -108,20 +105,27 @@ export const skillCategories = [
 export const certificates = [
   {
     id: 1,
+    title: "Programming in JAVA",
+    issuer: "IIT Kharagpur - NPTEL",
+    date: "October 2025",
+    image: java
+  },
+  {
+    id: 2,
     title: "Certified Foundations Associate",
     issuer: "Oracle",
     date: "August 2025",
     image: ociai
   },
   {
-    id: 2,
+    id: 3,
     title: "Introduction to Database Systems",
     issuer: "IIT Madras - NPTEL",
     date: "April 2025",
     image: dbms
   },
   {
-    id: 3,
+    id: 4,
     title: "Python with Django",
     issuer: "Ardent Computech Pvt Ltd",
     date: "March 2025",
@@ -204,6 +208,15 @@ export const projects = [
 
 
 export const journey = [
+  {
+    id: 1,
+    date: "December 2025",
+    name: "JIS Innovation Award 2025",
+    position: "Awardee",
+    description: "Received the JIS Innovation Award 2025 for reasearch paper publication.",
+    image: innovation,
+    type: "award"
+  },
   {
     id: 1,
     date: "April 2025",
