@@ -18,7 +18,7 @@ import innovation from './img/innovation.png';
 
 export const personalInfo = {
   name: "Surajit Tunga",
-  role: "Full Stack Developer || Exploring AI/ML",
+  role: "Full Stack Developer",
   tagline: "Building innovative solutions with modern technologies",
   about: "Passionate developer with expertise in building scalable web applications and AI-powered solution. I love turning complex problems into simple, beautiful, and intuitive solutions.",
   photo: profile,
