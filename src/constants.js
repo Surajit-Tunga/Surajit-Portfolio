@@ -5,6 +5,7 @@ import django from './img/django.jpeg';
 import sbh from './img/sbh.jpeg';
 import foset from './img/foset.jpeg'; 
 import ihmmc from './img/ihmmc.jpeg';
+import IHMMC from './img/IHMMC26.jpeg';
 import lulc from './img/LULC.png';
 import forest from './img/forest.png';
 import fest from './img/fest.png';
@@ -144,16 +145,16 @@ export const projects = [
     liveUrl: "https://github.com/Surajit-Tunga/Urban-Expansion-and-Land-Use-Analysis-",
     image: lulc
   },
-  {
-    id: 2,
-    title: "Forest Cover Type Detection",
-    category: "ML",
-    description: "Machine learning model that classifies forest cover types using cartographic features and Scikit-learn.",
-    technologies: ["Python", "Scikit-learn", "Pandas", "NumPy"],
-    link: "https://github.com/Surajit-Tunga/Forest-Cover-Type-Detection-ML1",
-    liveUrl: "https://github.com/Surajit-Tunga/Forest-Cover-Type-Detection-ML1",
-    image: forest
-  },
+  // {
+  //   id: 2,
+  //   title: "Forest Cover Type Detection",
+  //   category: "ML",
+  //   description: "Machine learning model that classifies forest cover types using cartographic features and Scikit-learn.",
+  //   technologies: ["Python", "Scikit-learn", "Pandas", "NumPy"],
+  //   link: "https://github.com/Surajit-Tunga/Forest-Cover-Type-Detection-ML1",
+  //   liveUrl: "https://github.com/Surajit-Tunga/Forest-Cover-Type-Detection-ML1",
+  //   image: forest
+  // },
   // {
   //   id: 3,
   //   title: "HackMate",
@@ -210,6 +211,15 @@ export const projects = [
 export const journey = [
   {
     id: 1,
+    date: "March 2026",
+    name: "IHMMC 2026",
+    position: "Winner",
+    description: "Led the team to develop an innovative project —  VitaSence. The project secured 6th position at IHMMC 2026 hosted by Asansol Engineering College.",
+    image: IHMMC,
+    type: "milestone"
+  },
+  {
+    id: 2,
     date: "December 2025",
     name: "JIS Innovation Award 2025",
     position: "Awardee",
@@ -218,7 +228,7 @@ export const journey = [
     type: "award"
   },
   {
-    id: 1,
+    id: 3,
     date: "April 2025",
     name: "Smart Bengal Hackathon 2025",
     position: "Finalist",
@@ -227,7 +237,7 @@ export const journey = [
     type: "milestone"
   },
   {
-    id: 2,
+    id: 4,
     date: "April 2025",
     name: "Technical Paper Presentation",
     position: "Paper Presenter",
@@ -236,7 +246,7 @@ export const journey = [
     type: "publication"
   },
   {
-    id: 3,
+    id: 5,
     date: "March 2025",
     name: "IHMMC 2025",
     position: "Winner",
