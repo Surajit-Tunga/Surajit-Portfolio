@@ -16,6 +16,8 @@ import underdev from './img/underdev.jpg';
 import myresume from './Files/Surajit_Resume.pdf';
 import java from './img/Java.png';
 import innovation from './img/innovation.png';
+import MEAN from './img/MEAN.jpeg';
+
 
 export const personalInfo = {
   name: "Surajit Tunga",
@@ -104,6 +106,7 @@ export const skillCategories = [
 ];
 
 export const certificates = [
+ 
   {
     id: 1,
     title: "Programming in JAVA",
@@ -118,15 +121,22 @@ export const certificates = [
     date: "August 2025",
     image: ociai
   },
-  {
+   {
     id: 3,
+    title: "MEAN Full Stack Development",
+    issuer: "IALSD",
+    date: "July 2025",
+    image: MEAN
+  },
+  {
+    id: 4,
     title: "Introduction to Database Systems",
     issuer: "IIT Madras - NPTEL",
     date: "April 2025",
     image: dbms
   },
   {
-    id: 4,
+    id: 5,
     title: "Python with Django",
     issuer: "Ardent Computech Pvt Ltd",
     date: "March 2025",
