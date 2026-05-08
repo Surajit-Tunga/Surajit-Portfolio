@@ -17,6 +17,8 @@ import myresume from './Files/Surajit.pdf';
 import java from './img/Java.png';
 import innovation from './img/innovation.png';
 import MEAN from './img/MEAN.jpeg';
+import Dhristi from './img/Dhristi.png';
+
 
 
 export const personalInfo = {
@@ -89,7 +91,7 @@ export const education = [
 export const skillCategories = [
   {
     category: "Programming Languages",
-    skills: ["JavaScript", "Python", "Java", "C"]
+    skills: [ "Java","JavaScript", "Python", "SQL", "C"]
   },
   {
     category: "Web Technologies",
@@ -97,11 +99,11 @@ export const skillCategories = [
   },
    {
     category: "Databases",
-    skills: ["MongoDB", "MySQL", "SQL"]
+    skills: ["MongoDB", "MySQL"]
   },
   {
     category: "Tools",
-    skills: ["Git", "Github", "Vercel", "Google Colab"]
+    skills: ["Git", "Github", "Vercel", "Google Colab", "MongoDB Atlas", "MySQL Workbench", "Postman", "VS Code"]
   }
 ];
 
@@ -145,36 +147,6 @@ export const certificates = [
 ];
 
 export const projects = [
-  {
-    id: 1,
-    title: "Urban Expansion and Land Use Analysis",
-    category: "GIS",
-    description: "Automated system for urban growth detection using Sentinel-2 imagery with NDVI, NDBI, and NDWI indices integrated into a Web-GIS dashboard.",
-    technologies: ["Python", "Leaflet.js", "Random Forest", "React", "Nodejs", "Express js", "postgreSQL", "Sentinel-2"],
-    link: "https://github.com/Surajit-Tunga/Urban-Expansion-and-Land-Use-Analysis-",
-    liveUrl: "https://github.com/Surajit-Tunga/Urban-Expansion-and-Land-Use-Analysis-",
-    image: lulc
-  },
-  // {
-  //   id: 2,
-  //   title: "Forest Cover Type Detection",
-  //   category: "ML",
-  //   description: "Machine learning model that classifies forest cover types using cartographic features and Scikit-learn.",
-  //   technologies: ["Python", "Scikit-learn", "Pandas", "NumPy"],
-  //   link: "https://github.com/Surajit-Tunga/Forest-Cover-Type-Detection-ML1",
-  //   liveUrl: "https://github.com/Surajit-Tunga/Forest-Cover-Type-Detection-ML1",
-  //   image: forest
-  // },
-  // {
-  //   id: 3,
-  //   title: "HackMate",
-  //   category: "MERN",
-  //   description: "Hackathon management platform for organizers and participants, featuring registration, event tracking, and result management.",
-  //   technologies: ["MongoDB", "Express", "React", "Node.js"],
-  //   link: "https://github.com/Surajit-Tunga/HackMate",
-  //   liveUrl: "https://github.com/Surajit-Tunga/HackMate",
-  //   image: underdev
-  // },
   {
     id: 4,
     title: "ResumeXpert",
@@ -221,6 +193,15 @@ export const projects = [
 export const journey = [
   {
     id: 1,
+    date: "April 2026",
+    name: "Journal of Geometics, ISRO",
+    position: "Primary Author",
+    description: "Served as a primary author in the development of “Dhristhi”, an automated Web-GIS platform for near real-time Land Use Land Cover (LULC) monitoring and change detection. Contributed to integrating U-Net based deep learning segmentation, Object-Based Post-Classification Comparison (OBC), and Random Forest based validation using spectral indices such as NDVI and NDBI. The system provides a fully automated workflow for detecting urban sprawl and deforestation, generating alerts and reports with minimal technical intervention. Achieved 92.1% overall accuracy with strong performance in anthropogenic change detection.",
+    image: Dhristi,
+    type: "publication"
+  },  
+  {
+    id: 2,
     date: "March 2026",
     name: "IHMMC 2026",
     position: "Winner",
@@ -229,7 +210,7 @@ export const journey = [
     type: "milestone"
   },
   {
-    id: 2,
+    id: 3,
     date: "December 2025",
     name: "JIS Innovation Award 2025",
     position: "Awardee",
@@ -238,7 +219,7 @@ export const journey = [
     type: "award"
   },
   {
-    id: 3,
+    id: 4,
     date: "April 2025",
     name: "Smart Bengal Hackathon 2025",
     position: "Finalist",
@@ -247,7 +228,7 @@ export const journey = [
     type: "milestone"
   },
   {
-    id: 4,
+    id: 5,
     date: "April 2025",
     name: "Technical Paper Presentation",
     position: "Paper Presenter",
@@ -256,7 +237,7 @@ export const journey = [
     type: "publication"
   },
   {
-    id: 5,
+    id: 6,
     date: "March 2025",
     name: "IHMMC 2025",
     position: "Winner",
