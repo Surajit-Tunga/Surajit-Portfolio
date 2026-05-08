@@ -13,7 +13,7 @@ import code from './img/code.png';
 import resume from './img/resume.png';
 import metagame from './img/metagame.png';
 import underdev from './img/underdev.jpg';
-import myresume from './Files/Surajit_Resume.pdf';
+import myresume from './Files/Surajit.pdf';
 import java from './img/Java.png';
 import innovation from './img/innovation.png';
 import MEAN from './img/MEAN.jpeg';

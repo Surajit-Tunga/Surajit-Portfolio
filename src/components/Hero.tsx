@@ -1,6 +1,7 @@
 import { motion } from 'motion/react';
 import { FileText, ArrowRight } from 'lucide-react';
 import { personalInfo } from '../constants';
+import ResumePDF from "../Files/Surajit.pdf";
 
 export default function Hero() {
   const scrollToProjects = () => {
@@ -80,7 +81,7 @@ export default function Hero() {
               className="flex flex-col sm:flex-row gap-4 justify-center md:justify-start"
             >
             <motion.a
-              href="#"
+              href={ResumePDF}
               rel="noopener noreferrer"
                     whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}
