@@ -18,6 +18,7 @@ import java from './img/Java.png';
 import innovation from './img/innovation.png';
 import MEAN from './img/MEAN.jpeg';
 import Dhristi from './img/Dhristi.png';
+import PatentImage from './img/Patent1.jpeg';
 
 
 
@@ -192,7 +193,16 @@ export const projects = [
 
 export const journey = [
   {
-    id: 1,
+  id: 1,
+  date: "April 2026",
+  name: "Patent Publication",
+  position: "Inventor",
+  description: "Co-inventor of the Indian patent 'Speaking System for Mute People by Hand Gesture Using Image Processing' (Application No. 202631019297 A). Developed a machine learning and image processing-based system that translates sign language gestures into text and audible speech in real time.",
+  image: PatentImage,
+  type: "patent"
+}, 
+  {
+    id: 2,
     date: "April 2026",
     name: "Journal of Geometics, ISRO",
     position: "Primary Author",
@@ -201,22 +211,13 @@ export const journey = [
     type: "publication"
   },  
   {
-    id: 2,
+    id: 3,
     date: "March 2026",
     name: "IHMMC 2026",
     position: "Winner",
     description: "Led the team to develop an innovative project —  VitaSence. The project secured 6th position at IHMMC 2026 hosted by Asansol Engineering College.",
     image: IHMMC,
     type: "milestone"
-  },
-  {
-    id: 3,
-    date: "December 2025",
-    name: "JIS Innovation Award 2025",
-    position: "Awardee",
-    description: "Received the JIS Innovation Award 2025 for reasearch paper publication.",
-    image: innovation,
-    type: "award"
   },
   {
     id: 4,

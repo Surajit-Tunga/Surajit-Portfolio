@@ -1,5 +1,5 @@
 import { motion } from 'motion/react';
-import { Trophy, Award,  Calendar, FileText } from 'lucide-react';
+import { Trophy, Award,  Calendar, FileText, Lightbulb } from 'lucide-react';
 import { journey } from '../constants';
 import { ImageWithFallback } from './figma/ImageWithFallback';
 
@@ -7,12 +7,13 @@ const typeIcons = {
   milestone: Trophy,
   publication: FileText,
   award: Award,
+  patent: Lightbulb,
 };
 
 const typeColors = {
   milestone: 'from-orange-500 to-yellow-500',
   publication: 'from-purple-500 to-pink-500',
-  award: 'from-cyan-500 to-blue-500'
+  patent: 'from-cyan-500 to-blue-500'
 };
 
 export default function Journey() {
