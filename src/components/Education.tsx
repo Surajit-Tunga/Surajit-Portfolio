@@ -51,27 +51,36 @@ export default function Education() {
                     whileHover={{ scale: 1.03, rotateY: 5 }}
                     className="bg-gradient-to-br from-gray-900 to-gray-800 p-6 rounded-xl border border-gray-800 hover:border-cyan-500/50 transition-all shadow-xl group"
                   >
-                    {/* Icon */}
-                    <div className="inline-flex items-center justify-center w-12 h-12 bg-gradient-to-br from-cyan-500/20 to-purple-500/20 rounded-lg mb-4 mx-2">
-                      <GraduationCap className="text-cyan-400" size={24} />
-                    </div>
+                  <div className="flex items-center justify-between mb-4">
+                     {/* Left Side: Icon + Duration */}
+                     <div className="flex items-center gap-3">
+                        <div className="inline-flex items-center justify-center w-12 h-12 bg-gradient-to-br from-cyan-500/20 to-purple-500/20 rounded-lg">
+                             <GraduationCap className="text-cyan-400" size={24} />
+                        </div>
 
-                    {/* Duration */}
-                    <span className="inline-block px-3 py-1 bg-cyan-500/10 text-cyan-400 rounded-full ml-2 mb-3">
-                      {edu.duration}
-                    </span>
+                        <span className="px-3 py-1 bg-cyan-500/10 text-cyan-400 rounded-full text-sm">
+                            {edu.duration}
+                        </span>
+                     </div>
 
+                     {/* Right Side: Score */}
+                    <div className="flex items-center gap-1.5 px-3 py-1.5 bg-gradient-to-r from-cyan-500/10 to-purple-500/10 border border-cyan-500/20 rounded-lg">
+                        <Award size={14} className="text-yellow-400" />
+                        <span className="text-sm font-semibold text-cyan-300">
+                            {edu.scores}
+                        </span>
+                     </div>
+                </div>
                     {/* Degree */}
                     <h3 className="mb-2 text-white group-hover:text-cyan-400 transition-colors">
                       {edu.degree}
                     </h3>
+                    
 
-                    {/* Institution */}
+                    {/* Institution*/}
                     <p className="text-purple-400 mb-3">
                       {edu.institution}
                     </p>
-
-
                     {/* Hover Glow Effect */}
                     <div className="absolute inset-0 bg-gradient-to-r from-cyan-500/0 via-cyan-500/5 to-purple-500/0 opacity-0 group-hover:opacity-100 rounded-xl transition-opacity duration-500 pointer-events-none"></div>
                   </motion.div>

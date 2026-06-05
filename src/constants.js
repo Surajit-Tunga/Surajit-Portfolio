@@ -73,19 +73,22 @@ export const education = [
     id: 1,
     degree: "B. Tech in Electronics and Communication Engineering",
     institution: "Guru Nanak Institute of Technology",
-    duration: "2023 - 2027"
+    duration: "2023 - 2027",
+    scores: "8.54 CGPA"
   },
   {
     id: 2,
     degree: "Higher Secondary Education",
     institution: "Balichak B.H Institution",
-    duration: "2021 - 2023"
+    duration: "2021 - 2023",
+    scores: "76%"
   },
   {
     id: 3,
     degree: "Secondary Education",
     institution: "Jamna Ramakrishna Vivekananda Pathmandir",
-    duration: "2015 - 2021"
+    duration: "2015 - 2021",
+    scores: "84%"
   }
 ];
 

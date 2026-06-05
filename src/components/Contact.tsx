@@ -90,7 +90,7 @@ export default function Contact() {
             Get In Touch
           </h2>
           <p className="text-gray-400 max-w-2xl mx-auto">
-            Have a project in mind or just want to chat? Feel free to reach out!
+            Have something in your mind ? Feel free to reach out!
           </p>
         </motion.div>
 
@@ -106,7 +106,7 @@ export default function Contact() {
             <div>
               <h3 className="mb-6 text-white">Let's work together</h3>
               <p className="text-gray-400 mb-8">
-                I'm always open to discussing new projects, creative ideas, or opportunities to be part of your vision.
+                I'm always open to discussing new creative ideas, or opportunities to be part of your vision.
               </p>
             </div>
 
@@ -256,7 +256,7 @@ export default function Contact() {
                       value={formData.message}
                       onChange={handleChange}
                       required
-                      placeholder="Tell me about your project..."
+                      placeholder="Drop your message here..."
                       rows={6}
                       className="w-full bg-gray-900/50 border-gray-700 text-white placeholder:text-gray-500 focus:border-cyan-500 focus:ring-cyan-500/50 resize-none"
                     />
