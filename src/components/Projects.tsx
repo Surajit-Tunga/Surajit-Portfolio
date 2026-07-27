@@ -4,7 +4,7 @@ import { ExternalLink, Github, Filter, Rocket } from 'lucide-react';
 import { projects } from '../constants';
 import { Badge } from './ui/badge';
 
-const categories = ['All', 'Frontend', 'MERN', 'AI'];
+const categories = ['All',"Research Project", 'Frontend', 'MERN', 'AI'];
 
 const categoryColors: { [key: string]: string } = {
   'Frontend': 'from-blue-500 to-cyan-500',
