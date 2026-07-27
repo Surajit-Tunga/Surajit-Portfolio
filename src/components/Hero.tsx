@@ -80,7 +80,7 @@ export default function Hero() {
               transition={{ delay: 0.6 }}
               className="flex flex-col sm:flex-row gap-4 justify-center md:justify-start"
             >
-            <motion.a
+            {/* <motion.a
               href={ResumePDF}
               rel="noopener noreferrer"
                     whileHover={{ scale: 1.05 }}
@@ -89,7 +89,7 @@ export default function Hero() {
             >
               <FileText size={20} />
               View Resume
-            </motion.a>
+            </motion.a> */}
 
               <motion.button
                 onClick={scrollToProjects}
