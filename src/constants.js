@@ -167,7 +167,7 @@ export const projects = [
   {
   id: 1,
   title: "LISM - Lunar Ice Survey and Mapping",
-  category: "Research Project",
+  category: 'Research Project',
   description:
     "Ongoing college research project for lunar south polar ice detection using Chandrayaan-2 DFSAR, OHRC, NASA ShadowCam and LOLA DEM datasets. Developing a geospatial decision-support framework for landing-site selection, rover traverse planning, and lunar terrain visualization.",
   technologies: [
@@ -187,7 +187,7 @@ export const projects = [
   {
   id: 2,
   title: "Dhristhi - AI Powered Web-GIS Change Detection Platform",
-  category: "Research Project",
+  category: 'Research Project',
   description:
     "Published research project in the Journal of Geomatics. Developed an AI-powered Web-GIS platform for automated Land Use/Land Cover (LULC) change detection using multi-temporal Sentinel-2 imagery, Google Earth Engine, semantic segmentation, and Random Forest-based validation.",
   technologies: [
