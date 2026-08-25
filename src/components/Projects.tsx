@@ -10,10 +10,9 @@ import {
 import { projects } from '../constants';
 import { Badge } from './ui/badge';
 
-const categories = ['All','Research Project', 'Frontend', 'MERN', 'AI'];
+const categories = ['All', 'Frontend', 'MERN', 'AI'];
 
 const categoryColors: { [key: string]: string } = {
-   'Research Project': "from-amber-500 to-orange-600",
   'Frontend': 'from-blue-500 to-cyan-500',
   'MERN': 'from-green-500 to-emerald-500',
   'AI': 'from-purple-500 to-pink-500',
